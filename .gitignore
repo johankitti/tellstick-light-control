@@ -1,0 +1,9 @@
+node_modules
+public
+.tmp
+.idea
+web/bower_components
+dist
+/server/config/local.env.js
+.DS_Store
+config.json
