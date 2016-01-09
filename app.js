@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x
 
 var WORKERS = process.env.WEB_CONCURRENCY || 1;
 
-var server = app.listen(process.env.PORT || 8080, function () {
+var server = app.listen(process.env.PORT || 80, function () {
 	var host = server.address().address;
 	var port = server.address().port;
 	console.log('Tellstick Lighting Controller is listening at http://%s:%s', host, port);
