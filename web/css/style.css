@@ -1,21 +1,4 @@
 body {
-  background-image: url('../assets/images/bg.jpg');
+  background-color: black;
   color: white;
-}
-
-.container-fluid {
-}
-
-.lampImages {
-  position: relative;
-}
-
-.lampImage {
-  width: 100%;
-  position: absolute;
-}
-
-.lampText {
-  margin-left: 350px;
-  margin-top: 30px;
 }
